@@ -15,7 +15,7 @@ namespace Task2
             r2 = Convert.ToDouble(Console.ReadLine());
             if (r1 < 1 || r2 < 2)
             {
-                Console.Write("Such values have consequences. There will be undefined Y values. Are you sure you wanna" +
+                Console.Write("Such values have consequences. There will be undefined Y values. Are you sure you wanna " +
                     "continue?(Yes or No): ");
                 string choice = Console.ReadLine();
                 switch (choice)
@@ -24,9 +24,13 @@ namespace Task2
                         break;
                     case "No":
                         Console.WriteLine("Okay.Standard values will be calculated.");
+                        r1 = 1;
+                        r2 = 2;
                         break;
                     case "or":
                         Console.WriteLine("Looks like we have genious here...");
+                        r1 = 1;
+                        r2 = 2;
                         break;
 
                 }
