@@ -35,13 +35,13 @@ namespace Task2
 
                 }
             }
-            else if (r1 > 1 || r2 > 2)
-            {
-                Console.WriteLine("No way. There will be too much Y values. I will limit radiuses' values " +
-                    "to standard ones ");
-                r1 = 1;
-                r2 = 2;
-            }
+            //else if (r1 > 1 || r2 > 2)
+            //{
+            //    Console.WriteLine("No way. There will be too much Y values. I will limit radiuses' values " +
+            //        "to standard ones ");
+            //    r1 = 1;
+            //    r2 = 2;
+            //}
             PrintingOneValue(r1, r2);
             PrintingAllValues(r1, r2);
         }
